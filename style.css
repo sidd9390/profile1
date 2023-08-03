@@ -127,7 +127,7 @@ body{
 }
 .para{
     font-family: 'Griffy', cursive;
-    font-size: 20px;
+    font-size: 23px;
 }
 .ubutton{
     text-decoration: none;
@@ -267,7 +267,7 @@ body{
         padding-right: 40px;
     }
     .container-edu .edu-img img{
-        width: 250px;
+        width: 330px;
     }
     #four{
         padding-left: 0px;
@@ -294,7 +294,7 @@ body{
     }
     
     .para{
-        font-size: 15px;
+        font-size: 18px;
     }
     .ubutton{
         text-decoration: none;
@@ -329,8 +329,36 @@ body{
         background-size: cover;
     }
     #four{
+        height: 80vh;
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .flex_items .box{
+        background-image: url(img4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150px;
+        margin: 5px;
+        color: black;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .box1 h3{
+        font-size: 9px;
+    }
+    .container-edu .edu-img img{
+        width: 250px;
+    }
+
+
+}
+
+/* mobile small */
+@media only screen and (max-width: 321px){
+    .nav-bar ul{
+        font-size: 15px;
     }
     .flex_items .box{
         background-image: url(img4.png);
@@ -343,18 +371,6 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;  
-    }
-    .box1 h3{
-        font-size: 9px;
-    }
-
-
-}
-
-/* mobile small */
-@media only screen and (max-width: 321px){
-    .nav-bar ul{
-        font-size: 15px;
     }
 
 }}
