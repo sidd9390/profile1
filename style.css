@@ -317,7 +317,7 @@ body{
         justify-content: center;
         display: flex;
         gap: 10px;
-        padding-bottom: 5px;
+        padding-bottom: 0px;
         font-size: 26px;
         color: black;
         border-right: 2px solid black;
