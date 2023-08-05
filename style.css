@@ -23,7 +23,6 @@ body{
     justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
-    background-attachment: fixed;
 }
 #two{
     background-image: url(img1.png);
@@ -38,6 +37,7 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     color: white;
+    background-attachment: fixed;
 }
 #three{
     background-image: url(bg-img.jpg);
