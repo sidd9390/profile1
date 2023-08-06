@@ -167,6 +167,7 @@ body{
     padding-bottom: 3px;
     border-bottom: 2px solid transparent;
     cursor: pointer;
+    font-size: 20px;
 }
 .btn-box a:hover{
     border-bottom: 2px solid black;
@@ -200,6 +201,24 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+#five{
+    background-image: url(bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
 .flex_items{
     display: flex;
     flex-wrap: wrap;
@@ -225,7 +244,58 @@ body{
 .box1 h3{
     text-align: center;
 }
-
+.web-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.web-projects .box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.college-projects{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.college-projects .box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 8px;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.card-heading{
+    font-size: 20px;
+    text-decoration: underline;
+    color: goldenrod;
+}
+.para-card{
+    font-family: 'Griffy', cursive;
+    font-size: 19px;
+}
+.cbutton{
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    color: whitesmoke;
+}
 
 @media only screen and (max-width: 1441px){
     
@@ -352,6 +422,42 @@ body{
     }
     .container-edu .edu-img img{
         width: 250px;
+    }
+    .btn-box a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 3px;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .web-projects .box{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin: 5px;
+        border-radius: 8px;
+        text-align: center;
+        justify-content: center;
+        padding: 5px;
+    }
+    .card-heading{
+        font-size: 13px;
+    }
+    .para-card{
+        font-family: 'Griffy', cursive;
+        font-size: 13px;
+    }
+    .cbutton{
+        text-decoration: none;
+        padding: 3px 10px;
+        border: 1px solid goldenrod;
+        border-radius: 8px;
+        font-size: 12px;
+        color: whitesmoke;
     }
 
 
