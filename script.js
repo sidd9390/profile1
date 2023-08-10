@@ -1,3 +1,4 @@
+alert("siddu");
 let grd = document.getElementById("grd");
 let dip = document.getElementById("dip");
 let school = document.getElementById("school");
