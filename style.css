@@ -165,13 +165,25 @@ body{
     text-decoration: none;
     color: black;
     padding-bottom: 3px;
-    border-bottom: 2px solid transparent;
     cursor: pointer;
     font-size: 20px;
 }
-.btn-box a:hover{
+#btn-1{
     border-bottom: 2px solid black;
 }
+#btn-2{
+    border-bottom: 2px solid transparent;
+}
+#btn-3{
+    border-bottom: 2px solid transparent;
+}
+#btn-4{
+    border-bottom: 2px solid black;
+}
+#btn-5{
+    border-bottom: 2px solid transparent;
+}
+
 .graduation p{
     padding-bottom: 15px;
 }
@@ -244,8 +256,10 @@ body{
 .box1 h3{
     text-align: center;
 }
-.web-projects{
+#web-projects{
     display: flex;
+}
+.web-projects{
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -262,8 +276,11 @@ body{
     text-align: center;
     justify-content: center;
 }
+#college-projects{
+    display: none;;
+}
+
 .college-projects{
-    display: none;
     flex-wrap: wrap;
     justify-content: center;
 }
