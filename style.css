@@ -264,16 +264,19 @@ body{
 }
 .web-projects .box{
     width: 300px;
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.733);
     margin: 8px;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px 20px;
     text-align: center;
     justify-content: center;
+    align-self: normal;
+}
+.web-projects .box h3{
+    padding: 10px;
 }
 #college-projects{
     display: none;;
@@ -285,16 +288,19 @@ body{
 }
 .college-projects .box{
     width: 300px;
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.733);
     margin: 8px;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px 20px;
     text-align: center;
     justify-content: center;
+    align-self: normal;
+}
+.college-projects .box h3{
+    padding: 10px;
 }
 .card-heading{
     font-size: 20px;
@@ -323,6 +329,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
+    background-attachment: fixed;
 }
 .contacts{
     display: flex;
@@ -503,8 +510,14 @@ body{
     .box1 h3{
         font-size: 13px;
     }
+    .links{
+        display: flex;
+        gap: 50px;
+        padding-top: 30px;
+    }
 
 }
+
 
 
 /* Tab mode */
@@ -520,9 +533,29 @@ body{
     #four{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    #six{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+    }
+    .links{
+        display: flex;
+        gap: 30px;
+    }
+    .fast-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .fast-links ul li{
+        padding-top: 3px;
+        padding-left: 0px;
+        color: white;
+        list-style: none;
     
-    
-
+    }
 }
 
 /* mobile large */
@@ -635,7 +668,45 @@ body{
         font-size: 12px;
         color: whitesmoke;
     }
-
+    #six{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        color: white;
+    }
+    .wrapper .icon {
+        position: relative;
+        background: goldenrod;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      
+      .wrapper .tooltip {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        background: #ffffff;
+        color: #ffffff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
 
 }
 
@@ -656,5 +727,38 @@ body{
         align-items: center;
         justify-content: center;  
     }
+    .wrapper .icon {
+        position: relative;
+        background: goldenrod;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+        padding: 4px;
+        margin: 4px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      
+      .wrapper .tooltip {
+        position: absolute;
+        top: 0;
+        font-size: 11px;
+        background: #ffffff;
+        color: #ffffff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    
 
-}}
+}
